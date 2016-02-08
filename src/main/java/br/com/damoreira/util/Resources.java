@@ -26,7 +26,7 @@ import br.com.damoreira.service.UserQualifier;
 public class Resources {
 
 	private static final String MONGO_DATABASE = "local";
-	private static final String MONGO_HOST = "172.17.0.2"; //System.getProperty("MONGO_DB_HOST");
+	private static final String MONGO_HOST = "172.17.0.2"; // MONGODB URL HOST. TODO: change to a external variable
 	private static final String USER_COLLECTION = "user";
 
 	@SuppressWarnings("deprecation")
